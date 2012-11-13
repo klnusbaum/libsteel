@@ -81,6 +81,16 @@ void *steel_slist_head(steel_slist_t *ssl);
 void *steel_slist_tail(steel_slist_t *ssl);
 
 /**
+ * \brief Returns the element right after the given element in the Singly Linked List.
+ *
+ * \param ssl The Singly Linked List in which both elements are contained.
+ * \param elem The element before the element which is desired.
+ * \return The element after the given element. If the element is at the tail of the list,
+ * this function returns NULL.
+ */
+void *steel_slist_next(steel_slist_t *ssl, void *elem);
+
+/**
  * \brief Inserts a new element into the Singly Linked List at the head of the list.
  *
  * \param ssl The Singly Linked List into which the given element should be inserted.
