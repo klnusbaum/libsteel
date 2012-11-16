@@ -168,4 +168,4 @@ void *steel_dlist_remove_tail(steel_dlist_t *ssl);
 void *steel_dlist_remove(steel_dlist_t *sdl, void *elem);
 
 
-#endif //STEEL_SLIST_H
+#endif //STEEL_DLIST_H
