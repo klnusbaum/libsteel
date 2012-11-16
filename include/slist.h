@@ -118,10 +118,11 @@ void *steel_slist_insert_after(steel_slist_t *ssl, void *after, void *elem);
 void *steel_slist_remove_head(steel_slist_t *ssl);
 
 /**
- * \brief Removes the tail element from the given Singly Linked List.
+ * \brief Removes the given element from the given Singly Linked List.
  *
- * \param ssl The Singly Linked List from which the tail should be remove.
- * \return The tail element that was removed from the Singly Linked List. Returns NULL
+ * \param ssl The Singly Linked List from which the given element should be removed.
+ * \param elem The element to remove.
+ * \return The element that was removed from the Singly Linked List. Returns NULL
  * if the element is not in the Singly Linked List.
  */
 void *steel_slist_remove(steel_slist_t *ssl, void *elem);
